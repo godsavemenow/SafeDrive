@@ -43,9 +43,9 @@ struct FirstScreen: View {
                     Text("Nós te ajudamos a manter o foco no trânsito bloqueando a sua tela, limitando ao máximo distrações.")
                         .font(.system(size: 17))
                         .multilineTextAlignment(.center)
-                        .frame(width: UIScreen.main.bounds.width*0.7, height: UIScreen.main.bounds.width*0.15, alignment: .center)
+                        .frame(width: UIScreen.main.bounds.width*0.7, height: UIScreen.main.bounds.width*0.15, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .padding(.bottom, UIScreen.main.bounds.width*0.06)
-                        .foregroundColor(Color(.black))
+                        .foregroundColor(.black)
                     
                 }
                 
@@ -85,11 +85,12 @@ struct FirstScreen: View {
             }
             .background(Color(.white))
             .frame(width: UIScreen.main.bounds.width*0.846, height: UIScreen.main.bounds.height*0.9, alignment: .center)
-            .cornerRadius(12, corners: [.topLeft, .bottomLeft, .topRight, .bottomRight])
+            .cornerRadius(12, corners: [.allCorners])
         }
         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
         .background(Color(UIColor(red: 0.6, green: 0.73, blue: 0.84, alpha: 1)))
-        .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
     }
 }
 

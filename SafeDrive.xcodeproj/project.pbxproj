@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB1073C125D60B160094F5CD /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1073C025D60B160094F5CD /* car.png */; };
-		CB1073C825D60F830094F5CD /* Ellipse 89.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1073C625D60F830094F5CD /* Ellipse 89.png */; };
-		CB1073C925D60F830094F5CD /* Ellipse 90.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1073C725D60F830094F5CD /* Ellipse 90.png */; };
+		CB9DCB5025D62A0F00FFF506 /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9DCB4F25D62A0F00FFF506 /* Historico.swift */; };
+		CBEFC65825D6D832006C4321 /* BloquearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFC65725D6D832006C4321 /* BloquearView.swift */; };
+		CBEFC65D25D6DEC5006C4321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEFC65C25D6DEC5006C4321 /* Assets.xcassets */; };
+		CBEFC66025D6E1FA006C4321 /* ConquistasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFC65F25D6E1FA006C4321 /* ConquistasView.swift */; };
 		CBF20DF625D5EE86007DF8AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF20DF525D5EE86007DF8AE /* AppDelegate.swift */; };
 		CBF20DF825D5EE86007DF8AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF20DF725D5EE86007DF8AE /* SceneDelegate.swift */; };
 		CBF20DFA25D5EE86007DF8AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF20DF925D5EE86007DF8AE /* ContentView.swift */; };
-		CBF20DFC25D5EE88007DF8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF20DFB25D5EE88007DF8AE /* Assets.xcassets */; };
 		CBF20DFF25D5EE88007DF8AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF20DFE25D5EE88007DF8AE /* Preview Assets.xcassets */; };
 		CBF20E0225D5EE88007DF8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF20E0025D5EE88007DF8AE /* LaunchScreen.storyboard */; };
 		CBF20E0B25D5F03E007DF8AE /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF20E0A25D5F03E007DF8AE /* ParentView.swift */; };
@@ -26,14 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB1073C025D60B160094F5CD /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
-		CB1073C625D60F830094F5CD /* Ellipse 89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse 89.png"; sourceTree = "<group>"; };
-		CB1073C725D60F830094F5CD /* Ellipse 90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse 90.png"; sourceTree = "<group>"; };
+		CB9DCB4F25D62A0F00FFF506 /* Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		CBEFC65725D6D832006C4321 /* BloquearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloquearView.swift; sourceTree = "<group>"; };
+		CBEFC65C25D6DEC5006C4321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBEFC65F25D6E1FA006C4321 /* ConquistasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasView.swift; sourceTree = "<group>"; };
 		CBF20DF225D5EE86007DF8AE /* SafeDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF20DF525D5EE86007DF8AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF20DF725D5EE86007DF8AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CBF20DF925D5EE86007DF8AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CBF20DFB25D5EE88007DF8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF20DFE25D5EE88007DF8AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBF20E0125D5EE88007DF8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBF20E0325D5EE88007DF8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,16 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB1073C325D60B2E0094F5CD /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				CB1073C725D60F830094F5CD /* Ellipse 90.png */,
-				CB1073C025D60B160094F5CD /* car.png */,
-				CB1073C625D60F830094F5CD /* Ellipse 89.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		CBF20DE925D5EE86007DF8AE = {
 			isa = PBXGroup;
 			children = (
@@ -86,14 +76,16 @@
 		CBF20DF425D5EE86007DF8AE /* SafeDrive */ = {
 			isa = PBXGroup;
 			children = (
-				CB1073C325D60B2E0094F5CD /* Assets */,
 				CBF20DF525D5EE86007DF8AE /* AppDelegate.swift */,
 				CBF20E1025D5F21F007DF8AE /* Onboarding */,
 				CBF20DF725D5EE86007DF8AE /* SceneDelegate.swift */,
 				CBF20DF925D5EE86007DF8AE /* ContentView.swift */,
-				CBF20DFB25D5EE88007DF8AE /* Assets.xcassets */,
+				CBEFC65725D6D832006C4321 /* BloquearView.swift */,
+				CBEFC65F25D6E1FA006C4321 /* ConquistasView.swift */,
 				CBF20E0025D5EE88007DF8AE /* LaunchScreen.storyboard */,
+				CB9DCB4F25D62A0F00FFF506 /* Historico.swift */,
 				CBF20E0325D5EE88007DF8AE /* Info.plist */,
+				CBEFC65C25D6DEC5006C4321 /* Assets.xcassets */,
 				CBF20DFD25D5EE88007DF8AE /* Preview Content */,
 				CBF20E0A25D5F03E007DF8AE /* ParentView.swift */,
 				CBF20E0D25D5F0B0007DF8AE /* OnboardingToggle.swift */,
@@ -178,12 +170,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1073C925D60F830094F5CD /* Ellipse 90.png in Resources */,
 				CBF20E0225D5EE88007DF8AE /* LaunchScreen.storyboard in Resources */,
-				CB1073C125D60B160094F5CD /* car.png in Resources */,
+				CBEFC65D25D6DEC5006C4321 /* Assets.xcassets in Resources */,
 				CBF20DFF25D5EE88007DF8AE /* Preview Assets.xcassets in Resources */,
-				CB1073C825D60F830094F5CD /* Ellipse 89.png in Resources */,
-				CBF20DFC25D5EE88007DF8AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9DCB5025D62A0F00FFF506 /* Historico.swift in Sources */,
 				CBF20E0B25D5F03E007DF8AE /* ParentView.swift in Sources */,
 				CBF20DF625D5EE86007DF8AE /* AppDelegate.swift in Sources */,
 				CBF20E1C25D5F69A007DF8AE /* SecondScreen.swift in Sources */,
@@ -204,6 +194,8 @@
 				CBF20E1F25D5F6F8007DF8AE /* ThirdScreen.swift in Sources */,
 				CBF20E1925D5F333007DF8AE /* CornerRadius.swift in Sources */,
 				CBF20DFA25D5EE86007DF8AE /* ContentView.swift in Sources */,
+				CBEFC65825D6D832006C4321 /* BloquearView.swift in Sources */,
+				CBEFC66025D6E1FA006C4321 /* ConquistasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

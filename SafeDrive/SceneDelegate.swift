@@ -27,6 +27,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: ParentView().environmentObject(OnboardingToggle()))
             self.window = window
             window.makeKeyAndVisible()
+            let state = UIApplication.shared.applicationState
+            if state == .background || state == .inactive {
+                // background
+            } else if state == .active {
+                // foreground
+            }
+
+            switch UIApplication.shared.applicationState {
+                case .background, .inactive:
+                    print("Background")
+                case .active:
+                    print("Foreground")
+                default:
+                    break
+            }
         }
     }
 
